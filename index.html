@@ -63,10 +63,12 @@
 
 <h2>Что уходит в интернет</h2>
 <p>Приложение обращается к сторонним сервисам только тогда, когда вы сами пользуетесь функцией, которой нужен интернет. Данные уходят напрямую в выбранный сервис, минуя разработчика. Дальше их обрабатывает этот сервис по своим правилам.</p>
+<p>Встроенный словарь «Ignis» работает без интернета: слова, которые вы в нём открываете, никуда не отправляются.</p>
 <ul>
-  <li><strong>ИИ-провайдеры.</strong> Когда вы просите ИИ заполнить карточку или объяснить слово, приложение отправляет провайдеру, которого вы подключили в разделе «ИИ-провайдеры», само слово, предложение из субтитров и текст запроса. Это может быть Google Gemini, OpenRouter, DeepSeek или сервер, адрес которого вы указали сами. Запрос подписывается вашим ключом.</li>
+  <li><strong>ИИ-провайдеры.</strong> Когда вы просите ИИ заполнить карточку или объяснить слово, приложение отправляет провайдеру, которого вы подключили в разделе «ИИ-провайдеры», само слово, предложение из субтитров, ваши изучаемый и родной языки и текст запроса. Это может быть Google Gemini, OpenRouter, DeepSeek или сервер, адрес которого вы указали сами. Запрос подписывается вашим ключом.</li>
   <li><strong>Онлайн-озвучка.</strong> Если вы выбрали голос Google Gemini или ElevenLabs, текст для озвучки уходит в этот сервис. Системную озвучку выполняет синтезатор речи, установленный на телефоне.</li>
-  <li><strong>Онлайн-словари и сайты.</strong> Когда вы открываете слово в онлайн-словаре (например, Cambridge Dictionary, Reverso Context, Google Переводчик, YouGlish, PlayPhrase, Yarn или в словаре, который добавили сами), этот сайт получает слово, а иногда и предложение с ним. Сайт открывается внутри приложения и может сохранять свои cookie, как в обычном браузере.</li>
+  <li><strong>Онлайн-словари и сайты.</strong> Когда вы открываете слово в онлайн-словаре или поиске (например, Reverso Context, Collins, WooordHunt, Мультитран, Cambridge Dictionary, Oxford, поиск Яндекса или Google, ChatGPT, YouGlish, PlayPhrase, Yarn или в словаре, который добавили сами), этот сайт получает слово, а иногда и предложение с ним. В ChatGPT слово и предложение попадают в поле вопроса, а отправляете вопрос вы сами. Сайт открывается внутри приложения и может сохранять свои cookie и входы в аккаунты, как в обычном браузере. Стереть их можно в настройках, в разделе «Словари» → «Данные сайтов».</li>
+  <li><strong>Другие приложения.</strong> Если вы переводите слово в другом приложении, например в Google Переводчике, приложение передаёт ему это слово. Дальше его обрабатывает то приложение по своим правилам.</li>
   <li><strong>Пример видео.</strong> Если на пустом экране «Медиа» нажать «Скачать пример», приложение скачает мультфильм с GitHub. GitHub при этом видит ваш IP-адрес, как при любом скачивании файла. Видео сохраняется на телефоне и дальше работает без интернета.</li>
 </ul>
 
@@ -124,10 +126,12 @@
 
 <h2>What goes online</h2>
 <p>The app contacts third-party services only when you use a feature that needs the internet. Data goes straight to the service you picked and never passes through the developer. That service then handles it under its own terms.</p>
+<p>The built-in Ignis dictionary works offline: the words you look up in it are not sent anywhere.</p>
 <ul>
-  <li><strong>AI providers.</strong> When you ask AI to fill in a card or explain a word, the app sends the word, the subtitle sentence and the request text to the provider you connected under AI providers. That can be Google Gemini, OpenRouter, DeepSeek, or a server whose address you entered yourself. The request is signed with your own key.</li>
+  <li><strong>AI providers.</strong> When you ask AI to fill in a card or explain a word, the app sends the word, the subtitle sentence, the language you're learning, your native language and the request text to the provider you connected under AI providers. That can be Google Gemini, OpenRouter, DeepSeek, or a server whose address you entered yourself. The request is signed with your own key.</li>
   <li><strong>Online voices.</strong> If you choose a Google Gemini or ElevenLabs voice, the text to be read aloud is sent to that service. The system voice uses the speech engine installed on your phone.</li>
-  <li><strong>Online dictionaries and websites.</strong> When you look up a word in an online dictionary (such as Cambridge Dictionary, Reverso Context, Google Translate, YouGlish, PlayPhrase, Yarn, or one you added yourself), that site receives the word and sometimes the sentence around it. The site opens inside the app and may store its own cookies, as it would in a regular browser.</li>
+  <li><strong>Online dictionaries and websites.</strong> When you look up a word in an online dictionary or search (such as Reverso Context, Collins, WooordHunt, Multitran, Cambridge Dictionary, Oxford, Yandex or Google search, ChatGPT, YouGlish, PlayPhrase, Yarn, or one you added yourself), that site receives the word and sometimes the sentence around it. In ChatGPT, the word and the sentence are placed in the message box, and you send the question yourself. The site opens inside the app and may store its own cookies and sign-ins, as it would in a regular browser. You can clear them in Settings, under Dictionaries → Site data.</li>
+  <li><strong>Other apps.</strong> If you translate a word in another app, such as Google Translate, the app passes the word to it. That app then handles it under its own terms.</li>
   <li><strong>Sample video.</strong> If you tap Download sample on the empty Media screen, the app downloads a cartoon from GitHub. GitHub sees your IP address, as with any file download. The video is saved on your phone and then works offline.</li>
 </ul>
 
